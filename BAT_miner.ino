@@ -15,7 +15,6 @@ void loop() {
   }
   //what users do in front of a computer, amirite?
 
-  DigiKeyboard.sendKeyStroke(KEY_T, MOD_CONTROL_LEFT);
   DigiKeyboard.delay(1000);
   DigiKeyboard.println("wikipedia.com");
   DigiKeyboard.delay(1000);
